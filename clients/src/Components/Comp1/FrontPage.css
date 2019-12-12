@@ -1,0 +1,27 @@
+   
+.category{
+    display: flex;
+    flex-direction: column-reverse;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    cursor: pointer;
+    font-size:20px;
+    text-decoration:none;
+    font-size: 24px;
+    
+}
+.category .student {
+   border: 1px solid #997a7a;
+   padding: 10px;
+   background: #c5c5b7;
+   margin-bottom: 5px;
+}
+.category .teacher {
+    border: 1px solid #997a7a;
+    padding: 10px;
+    background: #caca92;
+    margin-bottom: 5px;
+    text-decoration: none;
+ }

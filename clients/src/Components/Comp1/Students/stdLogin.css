@@ -1,0 +1,52 @@
+.box-controller {
+    background: hsla(60, 2%, 8%, 0.5);
+    color: rgb(139, 181, 218);
+    font-weight: bolder;
+    font-size: 32px;
+}
+.box-controller{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box-controller .controller{
+    flex: 1;
+    flex-wrap: wrap;
+    padding: 10px;
+    cursor: pointer;
+    margin: 10px;
+}
+.box-controller .controller:hover,
+.box-controller .controller:active
+
+{
+    border-bottom: 4px solid #0e0e0d80;
+    
+}
+.input-b{
+   border: none;
+   background: transparent;
+   border-bottom: 2px blue groove;
+   color: #8dc8c8;
+   text-align: center;
+   padding: 10px;
+   margin: 10px;
+} 
+.input-b:hover,
+.input-b:active{
+    border-bottom: 2px rgba(15, 15, 92, 0.6) groove;
+    color: #1b1f1f;
+    padding: 20px;
+    margin: 20px;
+
+}
+
+.box-container{
+    background: #7eacac;
+    padding: 10px;
+    margin: 10px
+
+}
+.customBtn{
+    margin-left: 20px;
+}
